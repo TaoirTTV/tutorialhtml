@@ -37,31 +37,39 @@
       color: #fff; /* Texto blanco */
     }
 
+    .menu2 {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .menu-item2 {
+      margin: 0 10px;
+    }
+
+    .menu-item2 a {
+      display: block;
+      padding: 100px 200px;
+      text-decoration: none;
+      color: #333; /* Texto gris oscuro */
+      background-color: #fff; /* Fondo gris claro */
+      border-radius: 4px;
+    }
+
+    .menu-item2 a:hover {
+      background-color: #07c500; /* Fondo azul */
+      color: #fff; /* Texto blanco */
+    }
+
     .centerWhite  {
         text-align: center;
         color: #fff;
     }
-
-    .button-link {
-      text-decoration: none;
-    }
-
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #fff; /* Fondo blanco */
-      color: #007bff; /* Texto azul */
-      border: none;
-      border-radius: 4px;
-      font-size: 16px;
-      font-weight: bold;
-      text-transform: uppercase;
-      transition: background-color 0.3s ease;
-    }
   </style>
 </head>
 <body>
-    <ul class="menu">
+    <ul class="menu2">
         <li class="menu-item"><a href="visualInstall.html">Instalar Visual Studio Code</a></li>
         <li class="menu-item"><a href="cosasBasicas.html">Primer Hola Mundo</a></li>
         <li class="menu-item"><a href="Images.html">Añadir Fotos</a></li>
@@ -69,8 +77,8 @@
     <br><br><br><br>
     <h1 class="centerWhite">Html Desde 0</h1>
     <br> <br>
-    <a class="button-link" href="visualInstall.html">
-        <button class="button">Comienza ahora</button>
-      </a>
+    <ul class="menu2">
+        <li class="menu-item2"><a href="visualInstall.html"><h1>Comienza Ahora!!!</h1></a></li>
+      </ul>
 </body>
 </html>
