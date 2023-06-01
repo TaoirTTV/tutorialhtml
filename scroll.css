@@ -1,0 +1,17 @@
+/* Estilos para el scroll */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #5e5e5e;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #04AA6D;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    border: 1px solid #363636;
+    border-radius: 10px;
+  }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Hola mundo</title>
+    <link rel="stylesheet" href="scroll">
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <style>
+        
+          .box {
+    inline-size: 85%;
+    overflow-wrap: break-word;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .bigCenter {
+            text-align: center;
+            font-size: 50px
+        }
+
+        .normal {
+            text-size-adjust: 30px;
+        }
+
+    
+
+#contenedor {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedor img {
+  max-width: 100%;
+  max-height: 100%;
+}
+    
+button {
+  background-color: #4c93af; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  animation-name: example;
+  animation-duration: 1s;
+  background-color: #4c93af;
+}
+
+@keyframes example {
+  from {background-color: #4c93af;}
+  to {background-color: #3e5a8e;}
+}
+
+    </style>
+    
+</head>
+<body>
+    <div>
+        <img src="img/cabecera html.png" id="contenedor">
+    </div>
+    <h1 class="center">Como puedo empezar a programar?</h1>
+    
+    <br><br><br>
+
+    <div class="box">
+        <p style="margin-left: 15%;">
+            Para empezar a programar en html deberas de ir al explorador de archivos, dar click derecho y darle a crear nuevo archivo, al cual lo deberas llamar index.html
+        </p>
+        <img src="img/Captura de pantalla 2023-05-31 230027.png" style="margin-left: 15%;">
+        <img src="img/Captura de pantalla 2023-05-31 230230.png" style="margin-left: 15%;">
+        <p style="margin-left: 15%;">
+            Una vez dentro deberas escribir "html" y te saldran unas recomendaciones en pantalla como ves en la imagen, a ellas se accede con las flechas del teclado y con el tabulador para confirmar, en este caso necesitaremos la abreviacion html:5
+        </p>
+        <img src="img/Captura de pantalla 2023-05-31 230345.png" style="margin-left: 15%;">
+        <p style="margin-left: 15%;">
+            Cuando le demos al tabulador con la variable html:5 seleccionada se creara automaticamente una porcion de codigo, del cual modificaremos los apartados "lang" que define el idioma de la pagina web, esto servira para que google no te pregunta si quieres traducir esta pagina si seleccionas el idioma de tu ordenador. Y el otro apartado que hay que modificar es el "title" el cual definira el titulo en la barra de paginas de tu pagina web.
+        </p>
+        <img src="img/Captura de pantalla 2023-06-01 071546.png" style="margin-left: 15%;">
+        <p style="margin-left: 15%;">
+            Una vez hecho esto ya podremos comenzar a programar, para ello deberemos ir a el apartado body del codigo y escribir "h1" y le daremos al tabulador. Ahi dentro podremos escribir lo que queramos, en este caso escribire el clasico "hola mundo" y el codigo deberia quedar como en la seguna fotografia.
+        </p>
+        <img src="img/Captura de pantalla 2023-06-01 072636.png" style="margin-left: 15%;">
+        <img src="img/Captura de pantalla 2023-06-01 072848.png" style="margin-left: 15%;">
+        <p style="margin-left: 15%;">
+            Seguramente ahora quieres ver como ha quedado tu primer codigo en html a si que para ello deberas ir al eplorador de visual studio code.
+        </p>
+        <img src="img/Captura de pantalla 2023-06-01 073335.png" style="margin-left: 15%;">
+        <p style="margin-left: 15%;">
+            Una vez realizado esto deberas darle click derecho a "index.html" y darle a open with live server, esto activara el pluguin instalado anteriormente haciendo que el codigo se ejecute en tu navegador predeterminado.
+        </p>
+        <img src="img/Captura de pantalla 2023-06-01 073941.png" style="margin-left: 15%;">
+        <h2 class="center" style="margin-left: 15%;">Todo sobre el h1</h2>
+        <p style="margin-left: 15%;">
+            Este codigo funciona porque h1 sirve para poner titulos grandes, pero no es la única manera de crear textos, tambien hay del h6 al h1 que sirven para definir el tamaño, es decir cada más pequeño es el numero más grande es el texto siendo el más grande el h1 y el h6 más pequeño.
+        </p>
+        <img src="img/Captura de pantalla 2023-06-01 081420.png" style="margin-left: 15%;">
+        <img src="img/Captura de pantalla 2023-06-01 081544.png" style="margin-left: 15%;">
+        <p style="margin-left: 15%;">
+            Y aunque estos codigos estan bien no podemos crear una pagina web con esto, ya que necesitamos escribir parrafos, para eso escribiremos "p" y le daremos al tabulador, y con eso ya tendriamos un parrafo.
+        </p>
+        <img src="img/Captura de pantalla 2023-06-01 082014.png" style="margin-left: 15%;">
+        <p style="margin-left: 15%;">
+            Otra cosa muy importante es poder saltar de linea, lo cual se hace con br. Y esto seria todo lo esencial para crear parrafos y titulos de texto pero la pagina ahora mismo esta bastante vacia, para eso deberemos añadir imagenes y links a otras paginas, pero eso lo veremos en la siguiente pagina.
+        </p>
+    </div>
+
+    <div class="center">
+        <a href="ImagenesYlinks.html">
+            <button>
+                <h1 class="center">Siguiente</h1>
+            </button>
+        </a>
+    </div>
+</body>
+</html>
